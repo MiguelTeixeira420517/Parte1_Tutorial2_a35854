@@ -29743,7 +29743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b488b5bdd52ebe14ebe8e023bad8d9d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstacle: {fileID: 0}
+  obstacle: {fileID: 7783881639805871130, guid: c9ae2342bf9d50b40ab8f337d4a7640f, type: 3}
 --- !u!20 &1887056095
 Camera:
   m_ObjectHideFlags: 0
@@ -34353,9 +34353,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1450841437939987319, guid: c9ae2342bf9d50b40ab8f337d4a7640f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7783881639805871130, guid: c9ae2342bf9d50b40ab8f337d4a7640f, type: 3}
       propertyPath: m_Name
       value: Cylinder
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1450841437939987319, guid: c9ae2342bf9d50b40ab8f337d4a7640f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c9ae2342bf9d50b40ab8f337d4a7640f, type: 3}
